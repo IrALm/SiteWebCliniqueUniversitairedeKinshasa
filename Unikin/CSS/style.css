@@ -1,0 +1,121 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+.bare-navigation{
+  background-color: #0A0831
+}
+.bar{
+  color: #14ED00;
+}
+.bar:hover {
+  background-color: #14ED00; /* Vert plus foncé au survol */
+  border-color: #14ED00;
+}
+.bouton-vert-custom {
+  border: 2px solid #14ED00; /* bordure verte personnalisée */
+  background-color: transparent;
+  border-radius: 6px;
+}
+
+/* Pour changer la couleur de l’icône */
+.bouton-vert-custom .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='green' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.logo{
+  width: 150px;
+  height:auto;
+  max-height:150px;
+  background: #14ED00;
+}
+.p1{
+  width: 20px;
+  height: 140px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  max-width: none;
+}
+.p2{
+  
+  width: 20px;
+  height: 140px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  max-width: none;
+}
+.pr{
+  color: #4c5b6d;
+  font-family: "Roboto", Sans-serif;
+  font-size: 21px;
+  font-style: italic;
+  line-height: 30px;
+}
+footer {
+      background: #0A0831;
+      color: #14ED00;
+      padding: 20px 0;
+}
+.intro {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* pleine hauteur */
+  overflow: hidden;
+}
+
+.bg-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 1;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+  opacity: 0.7; /* facultatif : un peu de transparence */
+}
+
+.video-content {
+  position: relative;
+  z-index: 2;
+  padding: 4rem;
+}
+
+.liste {
+  background-color: #14ED00;; /* Vert personnalisé (style Bootstrap success) */
+  border: 1px solid #14ED00;;
+  color: black;
+  font-size: 18px;
+  padding: 12px 24px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.liste:hover {
+  background-color: #14ED00; /* Vert plus foncé au survol */
+  border-color: #14ED00;;
+}
+.cont{
+  color: #14ED00; 
+}
+.bl{
+  color:white; 
+}
+.co{
+  background-color: #0A0831
+}
+.v{
+  background-color: #14ED00;
+}
+.ph1{
+  color: #14ED00;
+}
+.ph2{
+  color: black;
+}
+
