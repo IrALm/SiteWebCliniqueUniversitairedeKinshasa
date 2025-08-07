@@ -2,20 +2,21 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 1.6;
+  color: #0B6623;
 }
 .bare-navigation{
-  background-color: #0A0831
+  background-color: #0B6623
 }
 .bar{
-  color: #14ED00;
+  color: white;
 }
 .bar:hover {
-  background-color: #14ED00; /* Vert plus foncé au survol */
-  border-color: #14ED00;
+  background-color: white; /* Vert plus foncé au survol */
+  border-color: black;
 }
 .bouton-vert-custom {
-  border: 2px solid #14ED00; /* bordure verte personnalisée */
-  background-color: transparent;
+  border: 2px solid #0B6623; /* bordure verte personnalisée */
+  background-color: white;
   border-radius: 6px;
 }
 
@@ -28,7 +29,7 @@ body {
   width: 150px;
   height:auto;
   max-height:150px;
-  background: #14ED00;
+  background: white;
 }
 .p1{
   width: 20px;
@@ -48,15 +49,27 @@ body {
   max-width: none;
 }
 .pr{
-  color: #4c5b6d;
+  color: #0B6623;
   font-family: "Roboto", Sans-serif;
   font-size: 21px;
   font-style: italic;
   line-height: 30px;
 }
+.ps{
+  background: #0B6623;
+  color: white;
+}
+.vision{
+  background: #0B6623;
+  color: white;
+}
+.excellence{
+  background: #0B6623;
+  color: white;
+}
 footer {
-      background: #0A0831;
-      color: #14ED00;
+      background: #0B6623;
+      color: white;
       padding: 20px 0;
 }
 .intro {
@@ -87,9 +100,9 @@ footer {
 }
 
 .liste {
-  background-color: #14ED00;; /* Vert personnalisé (style Bootstrap success) */
-  border: 1px solid #14ED00;;
-  color: black;
+  background-color: #0B6623; /* Vert personnalisé (style Bootstrap success) */
+  border: 1px solid #0B6623;
+  color: white;
   font-size: 18px;
   padding: 12px 24px;
   border-radius: 10px;
@@ -97,25 +110,58 @@ footer {
 }
 
 .liste:hover {
-  background-color: #14ED00; /* Vert plus foncé au survol */
-  border-color: #14ED00;;
+  background-color: #0B6623; /* Vert plus foncé au survol */
+  border-color: #0B6623;
 }
 .cont{
-  color: #14ED00; 
+  color: white; 
 }
 .bl{
   color:white; 
 }
 .co{
-  background-color: #0A0831
+  background-color: #0B6623
 }
 .v{
-  background-color: #14ED00;
+  background-color: #0B6623;
+  color: white;
 }
 .ph1{
-  color: #14ED00;
+  color: #0B6623;
 }
 .ph2{
-  color: black;
+  color: white;
+}
+.btn-mission {
+  background-color: #0B6623; /* vert personnalisé */
+  color: white;
+  border: 1px solid #155724;
+}
+
+.btn-mission:focus {
+  box-shadow: none;
+}
+
+.btn-mission:not(.collapsed) {
+  background-color: #0B6623; /* si le bouton est actif */
+  color: white;
+}
+.text-mission{
+  color: #0B6623;
+}
+.gauche{
+  background-color: #0B6623; /* si le bouton est actif */
+  color: white;
+}
+.droite{
+  background-color: #0B6623; /* si le bouton est actif */
+  color: white;
+}
+.centre{
+  background-color: #0B6623; /* si le bouton est actif */
+  color: white;
+}
+.bo{
+  border: 2px solid#0B6623 !important;
 }
 
