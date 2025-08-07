@@ -93,6 +93,8 @@ footer {
   opacity: 0.7; /* facultatif : un peu de transparence */
 }
 
+
+
 .video-content {
   position: relative;
   z-index: 2;
@@ -167,4 +169,106 @@ footer {
 .hv{
   text-decoration: underline;
 }
+.bg-video-section {
+  height: 400px;
+  overflow: hidden;
+}
+
+.video-background-custom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* La vidéo couvre toute la section */
+  z-index: 0;
+}
+.texte-personnalise {
+  color: #0B6623; /* Couleur verte foncée personnalisée */
+}
+.bg-video-liste {
+  height: 400px;
+  overflow: hidden;
+}
+
+.video-background-liste {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* La vidéo couvre toute la section */
+  z-index: 0;
+}
+.texte-personnalise-liste {
+  color: #0B6623; /* Couleur verte foncée personnalisée */
+}
+
+.bg-video-contact {
+  height: 400px;
+  overflow: hidden;
+}
+
+.video-background-contact {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* La vidéo couvre toute la section */
+  z-index: 0;
+}
+.texte-personnalise-contact {
+  color: #0B6623; /* Couleur verte foncée personnalisée */
+}
+.bg-video-catalogue {
+  height: 400px;
+  overflow: hidden;
+}
+
+.video-background-catalogue {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* La vidéo couvre toute la section */
+  z-index: 0;
+}
+.texte-personnalise-catalogue {
+  color: #0B6623; /* Couleur verte foncée personnalisée */
+}
+.bg-video-actualite {
+  height: 400px;
+  overflow: hidden;
+}
+
+.video-background-actualite {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* La vidéo couvre toute la section */
+  z-index: 0;
+}
+.texte-personnalise-actualite {
+  color: #0B6623; /* Couleur verte foncée personnalisée */
+}
+.gauchehistorique{
+  text-align: justify;
+  color: #0B6623;
+  font-family: "Roboto", Sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0px;
+}
+.photos{
+  color: white;
+  background-color: #0B6623;
+}
+
+
+
 
