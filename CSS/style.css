@@ -111,10 +111,6 @@ footer {
   transition: background-color 0.3s ease;
 }
 
-.liste:hover {
-  background-color: #0B6623; /* Vert plus foncé au survol */
-  border-color: #0B6623;
-}
 .cont{
   color: white; 
 }
@@ -275,7 +271,73 @@ footer {
   color : white;
   background-color: #0B6623;
 }
+.catalogue img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.btn-download {
+  display: inline-block;
+  background-color: #0B6623;  /* vert foncé */
+  color: white;               /* texte blanc */
+  padding:  28px 66px;
+  border-radius: 25px;        /* arrondi */
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 30px;
+  transition: all 0.3s ease;
+  border: 2px solid #0B6623; /* bordure verte */
+  cursor: pointer;
+}
 
+.btn-download:hover {
+  background-color: white;    /* fond blanc au survol */
+  color: #0B6623;             /* texte vert au survol */
+  border-color: #0B6623;
+}
+.liste:hover {
+  background-color: white;    /* fond blanc au survol */
+  color: #0B6623;             /* texte vert au survol */
+  border-color: #0B6623;
+}
 
+.catalogue-bouton {
+  display: flex;
+  justify-content: center; /* centre horizontalement */
+  align-items: center;     /* centre verticalement */
+  height: 300px;           /* donne une hauteur à ta section */
+  /* tu peux adapter la hauteur comme tu veux */
+}
 
+.map-section iframe {
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+.btn-success:hover {
+  background-color: white;    /* fond blanc au survol */
+  color: #0B6623;             /* texte vert au survol */
+  border-color: #0B6623;
+}
+.btn-actualite {
+  display: inline-block;
+  background-color: #0B6623;  /* vert foncé */
+  color: white;               /* texte blanc */
+  padding:  14px 20px;
+  border-radius: 25px;        /* arrondi */
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+  transition: all 0.3s ease;
+  border: 2px solid #0B6623; /* bordure verte */
+  cursor: pointer;
+}
+
+.btn-actualite:hover {
+  background-color: white;    /* fond blanc au survol */
+  color: #0B6623;             /* texte vert au survol */
+  border-color: #0B6623;
+}
+.c-actualite{
+  color: #0B6623;
+}
 
