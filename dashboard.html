@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dashboard Admin</title>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="JS/dashboard.js" defer></script>
+</head>
+<body>
+  <h1>📊 Dashboard - Gestion des Articles</h1>
+
+  <!-- Zone de login -->
+  <div id="login">
+    <h2>Connexion</h2>
+    <form id="loginForm">
+      <input name="email" type="email" placeholder="Email" required><br>
+      <input name="password" type="password" placeholder="Mot de passe" required><br>
+      <button type="submit">Se connecter</button>
+    </form>
+  </div>
+
+  <!-- Zone admin -->
+  <div id="adminPanel" style="display:none;">
+    <h2>Bienvenue, <span id="userRole"></span></h2>
+    <button id="logout">Se déconnecter</button>
+
+    <!-- Formulaire ajout d'article -->
+    <div id="addSection" style="display:none;">
+      <h3>➕ Ajouter un article</h3>
+      <form id="ajoutArticle">
+        <input name="titre" placeholder="Titre" required><br>
+        <textarea name="contenu" placeholder="Contenu" required></textarea><br>
+        <input name="auteur" placeholder="Auteur"><br>
+        <button type="submit">Publier</button>
+      </form>
+    </div>
+
+    <!-- Liste des articles -->
+    <h3>📰 Liste des articles</h3>
+    <!-- Gestion des utilisateurs (visible seulement pour admin) -->
+    <div id="userManagement" style="display:none;">
+    <h3>👥 Gestion des utilisateurs</h3>
+    <div id="users"></div>
+    </div>
+
+    <div id="articles"></div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Admin - Ajouter un article</title>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="JS/admin.js" defer></script>
+</head>
+<body>
+  <h1>🔐 Espace Admin</h1>
+
+  <!-- Formulaire de login -->
+  <div id="login">
+    <h2>Connexion</h2>
+    <form id="loginForm">
+      <input name="email" type="email" placeholder="Email" required><br>
+      <input name="password" type="password" placeholder="Mot de passe" required><br>
+      <button type="submit">Se connecter</button>
+    </form>
+  </div>
+
+  <!-- Formulaire de création d'article (caché par défaut) -->
+  <div id="adminPanel" style="display:none;">
+    <h2>Ajouter un Article</h2>
+    <form id="ajoutArticle">
+      <input name="titre" placeholder="Titre" required><br>
+      <textarea name="contenu" placeholder="Contenu" required></textarea><br>
+      <input name="auteur" placeholder="Auteur"><br>
+      <button type="submit">Publier</button>
+    </form>
+    <button id="logout">Se déconnecter</button>
+  </div>
+</body>
+</html>
